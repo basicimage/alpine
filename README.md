@@ -9,6 +9,6 @@ make docker.all
 ```
 # test
 ```
-docker run -rm  -it basicimage/alpine bash
+docker run --rm -it bimg/alpine bash
 curl -k https://cncf.vip
 ```

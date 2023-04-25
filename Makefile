@@ -1,5 +1,5 @@
-image="basicimage/alpine"
-tag=$(shell git describe --tags --always)
+image="bimg/alpine"
+tag="1.0.0"
 
 .PHONY: docker.build
 docker.build:
